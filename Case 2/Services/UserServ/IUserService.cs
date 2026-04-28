@@ -3,7 +3,8 @@
 namespace Case_2.Services.UserServ
 {
     public interface IUserService
-    { List<User> GetAllUsers();
+    { 
+        List<User> GetAllUsers();
         User Login(string email, string password);
         List<User> GetUsersByRole(RoleType role);
 

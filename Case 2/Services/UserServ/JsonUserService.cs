@@ -1,9 +1,8 @@
 ﻿using Case_2.Mock;
 using Case_2.Models;
-using Case_2.Services.UserServ;
 using Microsoft.AspNetCore.Identity;
 
-namespace Case_2.Services
+namespace Case_2.Services.UserServ
 {
     public class JsonUserService: IUserService
     {

@@ -1,10 +1,8 @@
 ﻿using Case_2.Models;
-using Case_2.Services;
-using Case_2.Services.UserServ;
 using Microsoft.AspNetCore.Hosting;
 using System.Text.Json;
 
-namespace Case_2.Services
+namespace Case_2.Services.UserServ
 {
     public class JsonFileService
     {
