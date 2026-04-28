@@ -12,10 +12,10 @@ namespace Case_2.Models
 
         public string Password { get; set; } = "";
 
-        public Role Role { get; set; }
+        public RoleType Role { get; set; }
 
   
-        public User(int userId, string name, string email, string password, Role role)
+        public User(int userId, string name, string email, string password, RoleType role)
         {
             UserId = userId;
             Name = name;

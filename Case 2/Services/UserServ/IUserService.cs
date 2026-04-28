@@ -5,7 +5,7 @@ namespace Case_2.Services.UserServ
     public interface IUserService
     { List<User> GetAllUsers();
         User Login(string email, string password);
-        List<User> GetUsersByRole(Role role);
+        List<User> GetUsersByRole(RoleType role);
 
         void CreateUser(User user);
         void UpdateUser(User user);

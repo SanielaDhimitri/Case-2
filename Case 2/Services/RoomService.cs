@@ -1,6 +1,6 @@
 ﻿
 
-//namespace Case_2.Services
+//namespace ZealandLokaleBooking.Services
 //{
  
 

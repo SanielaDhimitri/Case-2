@@ -31,7 +31,7 @@ namespace Case_2.Pages.UsersPage
                     return Page();
 
                 //  Student
-                if (User.Role == Role.Student &&
+                if (User.Role == RoleType.Student &&
                     !User.Email.ToLower().EndsWith("@edu.zealand.dk"))
                 {
                     ModelState.AddModelError("", "Studerende skal have en email der slutter med @edu.zealand.dk");
@@ -39,7 +39,7 @@ namespace Case_2.Pages.UsersPage
                 }
 
                 //  Teacher
-                if (User.Role == Role.Teacher &&
+                if (User.Role == RoleType.Teacher &&
                     !User.Email.ToLower().EndsWith("@zealand.dk"))
                 {
                     ModelState.AddModelError("", "Undervisere skal have en email der slutter med @zealand.dk");

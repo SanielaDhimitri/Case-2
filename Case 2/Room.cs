@@ -1,4 +1,4 @@
-﻿namespace Case_2
+﻿namespace ZealandLokaleBooking
 {
  
 public class Room

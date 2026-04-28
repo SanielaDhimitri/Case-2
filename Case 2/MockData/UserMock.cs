@@ -18,13 +18,13 @@ namespace Case_2.Mock
         private static List<User> _users = new List<User>
 {
     new User(1, "Sona", "sad004@edu.zealand.dk",
-        passwordHasher.HashPassword(null, "1234"), Role.Student),
+        passwordHasher.HashPassword(null, "1234"), RoleType.Student),
 
     new User(2, "John", "john@zealand.dk",
-        passwordHasher.HashPassword(null, "1234"), Role.Teacher),
+        passwordHasher.HashPassword(null, "1234"), RoleType.Teacher),
 
     new User(3, "Admin", "admin@gmail.com",
-        passwordHasher.HashPassword(null, "admin"), Role.Admin)
+        passwordHasher.HashPassword(null, "admin"), RoleType.Admin)
 };
         public static List<User> GetMockUsers()
         {

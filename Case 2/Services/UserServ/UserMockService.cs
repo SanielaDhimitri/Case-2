@@ -34,7 +34,7 @@ namespace Case_2.Services.UserServ
             return null;
         }
 
-        public List<User> GetUsersByRole(Role role)
+        public List<User> GetUsersByRole(RoleType role)
         {
             return _users
                 .Where(u => u.Role == role)

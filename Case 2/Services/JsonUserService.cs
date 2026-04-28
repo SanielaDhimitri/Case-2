@@ -23,7 +23,7 @@ namespace Case_2.Services
             return _json.GetAll();                                // GetAll(): Method from JsonFileService 
         }
 
-        public List<User> GetUsersByRole(Role role)
+        public List<User> GetUsersByRole(RoleType role)
         {
             return _json.GetAll()
                 .Where(u => u.Role == role)

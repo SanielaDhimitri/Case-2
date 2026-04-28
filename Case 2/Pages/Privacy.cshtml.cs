@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Case_2.Pages
+namespace ZealandLokaleBooking.Pages
 {
     public class PrivacyModel : PageModel
     {

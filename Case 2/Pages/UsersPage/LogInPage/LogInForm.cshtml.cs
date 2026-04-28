@@ -27,7 +27,7 @@ namespace Case_2.Pages.UsersPage.LogInPage
 
         public string Message { get; set; }
         [BindProperty(SupportsGet = true)]
-        public Role Role { get; set; }
+        public RoleType Role { get; set; }
 
         public async Task<IActionResult> OnPostAsync()
         {
@@ -70,7 +70,7 @@ namespace Case_2.Pages.UsersPage.LogInPage
                             new ClaimsPrincipal(claimsIdentity)
                         );
 
-                        if (user.Role == Role.Admin)
+                        if (user.Role == RoleType.Admin)
                         {
                             return RedirectToPage("/UsersPage/LogInPage/AdminDashBoard");
                         }

@@ -24,7 +24,7 @@ namespace Case_2.Pages.UsersPage
         [BindProperty]
         public int? SearchId { get; set; }
         [BindProperty(SupportsGet = true)]
-        public Role? Role { get; set; }
+        public RoleType? Role { get; set; }
         public void OnGet()
         {
             if (Role.HasValue)
