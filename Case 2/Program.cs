@@ -1,3 +1,4 @@
+using Case_2.Registers.UserReg;
 using Case_2.Services.UserServ;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
@@ -6,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddScoped<IUserService, UserService>();
 
 //builder.Services.AddSingleton<IUserService, UserMockService>();                 //mock
 builder.Services.AddScoped<JsonFileService>();                                      //json
