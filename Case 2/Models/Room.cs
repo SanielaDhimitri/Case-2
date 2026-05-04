@@ -16,6 +16,11 @@ public class Room
         Name = name;
         Capacity = capacity;
     }
-}
+
+        public override string ToString()
+        {
+            return $"Room {Id}: {Name} - Capacity: {Capacity}";
+        }
+    }
    
 }

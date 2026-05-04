@@ -20,5 +20,10 @@
             Name = name;
             Address = address;
         }
+
+        public override string ToString()
+        {
+            return $"Building {Id}: {Name}";
+        }
     }
 }
