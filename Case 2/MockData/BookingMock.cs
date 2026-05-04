@@ -1,6 +1,5 @@
 using Case_2.Models;
-
-namespace Case_2.MockData
+namespace Case_2.Mock
 {
     public class BookingMock
     {
