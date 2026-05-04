@@ -13,9 +13,22 @@ namespace Case_2.Services
             this.repository = repository;
         }
 
+        // Hent alle rooms
         public List<Room> GetAllRooms()
         {
             return repository.GetAll();
+        }
+
+        // Hent room med id
+        public Room GetRoom(int id)
+        {
+            return repository.GetById(id);
+        }
+
+        // Tilføj room
+        public void CreateRoom(Room room)
+        {
+            repository.Add(room);
         }
     }
 }
