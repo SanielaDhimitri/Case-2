@@ -6,7 +6,7 @@ namespace Case_2.Services.UserServ
 {
     public class UserMockService : IUserService
     {
-            private List<User> _users = MockUsers.GetMockUsers();
+            private List<User> _users = UserMock.GetMockUsers();
 
             public List<User> GetAllUsers()
             {
