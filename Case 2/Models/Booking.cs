@@ -22,4 +22,10 @@ public class Booking
         BookingDate = DateTime.Now;
         Status = true;
     }
+    
+    // Metode til at vise booking info
+    public override string ToString()
+    {
+        return $"BookingId: {BookingId}, User: {UserId}, Room: {RoomId}, Start: {StartTime}, End: {EndTime}";
+    }
 }
