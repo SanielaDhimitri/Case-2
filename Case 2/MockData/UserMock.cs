@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Case_2.Mock
 {
-    public class MockUsers
+    public class UserMock
+
     {
         //private static List<User> _users = new List<User>
         //{

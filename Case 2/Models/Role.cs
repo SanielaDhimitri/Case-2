@@ -1,30 +1,30 @@
-﻿//using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-//namespace Case_2.Models
-//{
-//    public class Roler
- 
-//    {
-//        [Key]
-//        public int RoleId { get; set; }
+namespace Case_2.Models
+{
+    public class Roler 
 
-//        [Required]
-//        public string Name { get; set; } = "";
+    {
+        [Key]
+        public int RoleId { get; set; }
 
-      
-//        public List<User> Users { get; set; } = new List<User>();
+        [Required]
+        public string Name { get; set; } = "";
 
-//        // Default constructor
-//        public Roler() { }
 
-//        // Constructor me parametra
-//        public Roler(int roleId, string name)
-//        {
-//            RoleId = roleId;
-//            Name = name;
-//        }
-//    }
-//}
+        public List<User> Users { get; set; } = new List<User>();
+
+        // Default constructor
+        public Roler() { }
+
+        // Constructor me parametra
+        public Roler(int roleId, string name)
+        {
+            RoleId = roleId;
+            Name = name;
+        }
+    }
+}
 
 
 //dette klasse bruges kun  i DB 

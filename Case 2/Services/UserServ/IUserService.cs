@@ -13,3 +13,4 @@ namespace Case_2.Services.UserServ
         void DeleteUser(int id);
     }
 }
+
