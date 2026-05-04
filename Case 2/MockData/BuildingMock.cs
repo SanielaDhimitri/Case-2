@@ -7,8 +7,8 @@ namespace Case_2.Mock
         {
             return new List<Building>
             {
-                new Building { BuildingId = 1, BuildingName = "Bygning A", Address = "Roskilde" },
-                new Building { BuildingId = 2, BuildingName = "Bygning B", Address = "Køge" }
+                new Building { Id = 1, Name = "Bygning A", Address = "Roskilde" },
+                new Building { Id = 2, Name = "Bygning B", Address = "Køge" }
             };
         }
     }
