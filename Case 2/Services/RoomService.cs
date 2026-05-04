@@ -1,16 +1,21 @@
-﻿
+﻿using Case_2.Models;
+using Case_2.Repositories;
+using System.Collections.Generic;
 
-//namespace ZealandLokaleBooking.Services
-//{
- 
+namespace Case_2.Services
+{
+    public class RoomService
+    {
+        private RoomRepository repository;
 
-//    public class RoomService // laver logik.
-//    {
-//        private RoomRegister register;
+        public RoomService(RoomRepository repository)
+        {
+            this.repository = repository;
+        }
 
-//        public RoomService(RoomRegister register)
-//        {
-//            this.register = register;
-//        }
-//    }
-//}
+        public List<Room> GetAllRooms()
+        {
+            return repository.GetAll();
+        }
+    }
+}

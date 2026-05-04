@@ -1,4 +1,4 @@
-﻿namespace ZealandLokaleBooking
+﻿namespace Case_2.Models
 {
  
     public class Building
