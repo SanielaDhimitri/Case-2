@@ -16,7 +16,6 @@ public class BookingPart
     public BookingPart(int bookingPartId, string partName)
     {
         BookingPartId = bookingPartId;
-        PartName = partName;
     }
 
     public override string ToString()

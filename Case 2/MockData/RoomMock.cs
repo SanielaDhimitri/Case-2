@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using Case_2.Models;
-
-namespace Case_2
+﻿using Case_2.Models;
+namespace Case_2.Mock
 {
     public static class MockData
     {
