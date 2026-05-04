@@ -1,6 +1,6 @@
 ﻿using Case_2.Models;
 
-namespace Case_2.Registers.UserReg
+namespace Case_2.Repository.UserRepo
 {
     public interface IUseresRepository
     {
